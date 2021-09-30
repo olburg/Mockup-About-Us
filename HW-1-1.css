@@ -1,0 +1,78 @@
+body {
+  margin: 100px 0px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 700px;
+  background-color: #c7c2c2;
+  display: block;
+  position: relative;
+}
+
+.info {
+  width: 100%;
+  height: 700px;
+  padding: 20px auto;
+  position: relative;
+  margin: 30px auto;
+}
+
+.image {
+  width: 570px;
+  height: 600px;
+  padding: 20px auto;
+  position: absolute;
+  top: 0;
+  right: 100pt;
+  margin: 100px 0px 0px 0px;
+}
+
+.foto {
+  background-image: url("https://images03.nicepage.io/c461c07a441a5d220e8feb1a/20a3e12082b853cb98a762a8/sxa-min.jpg");
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 60px;
+  right: 250px;
+  border: none;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.background {
+  width: 450px;
+  height: 450px;
+  background-color: #c5a48c;
+  border-radius: 50%;
+}
+
+.aboutus {
+  width: 570px;
+  height: 700px;
+  color: black;
+  text-align: left;
+  line-height: 30px;
+  position: absolute;
+  padding: 20px auto;
+  margin-left: 400px;
+  display: block;
+}
+
+.h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  margin: 350px 0px 0px;
+}
+
+.text {
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  margin: 30px 0px 0px;
+}
